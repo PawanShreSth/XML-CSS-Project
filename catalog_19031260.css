@@ -1,0 +1,401 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); /* LOBSTER */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap'); /* MONTSERRAT */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+/* Setting Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Variables */
+  --white-font-color: rgb(240, 239, 240);
+  --title-color: hsl(20, 100%, 40%);
+  --right-side-color: #e74136;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--right-side-color);
+  color: var(--white-font-color);
+}
+
+store {
+  overflow: hidden;
+  /* Using CSS Grid */
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+  height: 100vh;
+  /* Default font family */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Store Info Styling */
+store_info {
+  background-color: var(--white-font-color);
+  color: hsl(200, 80%, 40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+logo {
+  background: url('./images/logo.png');
+  height: 130px;
+  width: 130px;
+  background-size: 100% 100%;
+  position: absolute;
+  top: -0.5rem;
+  left: 26rem;
+}
+
+store_name {
+  animation: text-size-change 2s linear infinite alternate;
+  font-family: 'Lobster', cursive;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 6px hsl(200, 80%, 30%);
+  text-transform: uppercase;
+  transition: all 0.5s linear;
+}
+
+store_name:hover {
+  color: hsl(200, 4%, 14%);
+  text-shadow: 2px 2px 6px hsl(200, 4%, 10%);
+}
+
+about {
+  border-bottom: 2px solid hsl(200, 80%, 30%);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-top: 2px solid hsl(200, 80%, 30%);
+  color: hsl(200, 80%, 40%);
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 1rem;
+  text-align: center;
+  word-spacing: 0.5rem;
+  padding: 1rem;
+}
+
+about::before {
+  content: open-quote;
+  font-size: 2.8rem;
+}
+
+about::after {
+  content: close-quote;
+  font-size: 2.8rem;
+}
+
+contact_info {
+  border-bottom: 2px solid hsl(200, 80%, 30%);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding-bottom: 1rem;
+}
+
+about::first-letter {
+  font-size: 3rem;
+  text-shadow: 2px 1px 2px hsl(200, 80%, 40%);
+  margin-right: 1px;
+}
+
+country,
+city,
+address,
+contact_info {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+country,
+city,
+address {
+  color: hsl(200, 80%, 50%);
+}
+
+email_id:hover,
+phone_num:hover {
+  color: rgb(0, 0, 0);
+}
+
+country:hover,
+city:hover,
+address:hover {
+  color: hsl(200, 80%, 30%);
+}
+
+country::before {
+  content: 'Country: ';
+  font-weight: 600;
+  color: hsl(200, 80%, 40%);
+}
+
+city::before {
+  content: 'City: ';
+  font-weight: 600;
+  color: hsl(200, 80%, 40%);
+}
+
+address::before {
+  content: 'Address: ';
+  font-weight: 600;
+  color: hsl(200, 80%, 40%);
+}
+
+phone_num {
+  display: block;
+}
+
+website {
+  background-color: hsl(200, 80%, 50%);
+  border-radius: 1em;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  transition: all 0.3s linear;
+  width: 200px;
+}
+
+website:hover {
+  background-color: hsl(200, 80%, 40%);
+  box-shadow: 3px 3px 6px hsl(200, 80%, 30%);
+}
+
+email_id,
+phone_num {
+  color: gray;
+  font-style: italic;
+}
+
+/* Songs Styling */
+songs {
+  overflow-y: scroll;
+}
+
+song {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 90vh;
+  padding: 4.2rem;
+  color: rgb(235, 228, 228);
+  border-bottom: 2px solid saddlebrown;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-family: 'Work Sans', 'Montserrat', sans-serif;
+}
+
+song * {
+  display: list-item;
+}
+
+song_name {
+  display: block;
+}
+
+/* Pseudo Elements */
+
+song_name {
+  border-bottom: 2px solid var(--right-side-color);
+  font-size: 2rem;
+  color: var(--title-color);
+}
+
+song_name::before {
+  content: 'Song Name: ';
+  font-weight: 600;
+}
+
+genre::before {
+  content: 'Genre: ';
+  font-weight: 600;
+}
+
+song_info::before {
+  content: 'Song Info: ';
+  font-weight: 600;
+}
+
+song_writer::before {
+  content: 'Song Writer: ';
+  font-weight: 600;
+}
+
+singer_name {
+  display: block;
+}
+
+singer_name::before {
+  content: 'Singer Name: ';
+  font-weight: 600;
+}
+
+singer_nationality::before {
+  content: 'Singer Nationality: ';
+  font-weight: 600;
+}
+
+song_length::before {
+  content: 'Duration: ';
+  font-weight: 600;
+}
+
+album::before {
+  content: 'Album: ';
+  font-weight: 600;
+}
+
+full_name {
+  display: block;
+}
+
+full_name::before {
+  content: "Producer's Name: ";
+  font-weight: 600;
+}
+
+nationality::before {
+  content: "Producer's Nationality: ";
+  font-weight: 600;
+}
+
+director_name::before {
+  content: "Director's Name: ";
+  font-weight: 600;
+}
+
+release_date::before {
+  content: 'Release Date: ';
+  font-weight: 600;
+}
+
+language::before {
+  content: 'Language: ';
+  font-weight: 600;
+}
+
+rating::before {
+  content: 'Rating: ';
+  font-weight: 600;
+}
+
+Nepali {
+  display: block;
+}
+
+Nepali::before {
+  content: 'Rs ';
+  font-weight: 600;
+}
+
+Dollar::before {
+  content: '$';
+  font-weight: 600;
+}
+
+stock::before {
+  content: 'Availability: ';
+  font-weight: 600;
+}
+
+/* Adding background images */
+[song_id='01'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/acdc.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='02'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/taylorswift.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='03'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/taylorswift2.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='04'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./images/coreytaylor.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='05'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/slipknot.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='06'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/slipknot2.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='07'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/lambofgod.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='08'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/greenday.webp') center/cover no-repeat fixed;
+}
+
+[song_id='09'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/21guns.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='10'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/trivium.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='11'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/shawnmendes.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='12'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/mikeposner.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='13'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/postmalone.jpg') center/cover no-repeat fixed;
+}
+
+[song_id='14'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/blackpanther.png') center/cover no-repeat fixed;
+}
+
+[song_id='15'] {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/starboy.jpg') center/cover no-repeat fixed;
+}
+
+/* Animation */
+@keyframes text-size-change {
+  0% {
+    transform: scale(1) translateX(23px);
+  }
+
+  50% {
+    transform: scale(1.1) translateX(23px);
+  }
+
+  100% {
+    transform: scale(1) translateX(23px);
+  }
+}

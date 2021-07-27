@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD -->
+<!-- <!DOCTYPE store SYSTEM "catalog_19031260.dtd"> -->
+
+<!-- CSS -->
+<?xml-stylesheet type="text/css" href="./catalog_19031260.css" ?>
+
+<!-- Schema -->
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:noNamespaceSchemaLocation="catalog_19031260.xsd">
+		<store_info>
+			<logo></logo>
+			<store_name>Soul Sound</store_name>			
+			<about>Soul Sound is the leading comany of Nepal to provide the record 
+			of different genre ranging from folk, Blues, Jazz, Pop, Hip Hop, Rock, 
+			Opera, Country and many more. We are aware that music has no border so 
+			we sell English, Spanish, Nepalese, Hindi and popular music from all 
+			around the world. If anyone wants to buy a music, we are here to serve in 
+			all the major cities in Nepal.</about>
+			<country>Nepal</country>
+			<city>Kathmandu</city>
+			<address>Kalanki</address>
+			<contact_info contact_id="1">
+				<email_id>soulsound@gmail.com</email_id>
+				<phone_num>977-98413242331</phone_num>
+			</contact_info>
+			<website>www.soulsound.com</website>
+		</store_info>
+		
+
+		<songs>
+			<song song_id="01">
+				<song_name>Dirty Deeds Done Dirt Cheap</song_name>
+				<genre>Rock</genre>
+				<song_info>Dirty Deeds Done Dirt Cheap is the third studio album by Australian hard rock band AC/DC. It was the band's third LP released in Australia and second in Europe in 1976 but was not released in the United States until 1981, more than one year after lead singer Bon Scott's death.</song_info>
+				<song_writer>Angus Young, Bon Scott &amp; Malcolm Young</song_writer>				
+				<singers_list list="1">
+					<singer_name>AC/DC</singer_name>
+					<singer_nationality>USA </singer_nationality>					
+				</singers_list>
+				<song_length>4:11</song_length>
+				<album>Dirty Deeds Done Dirt Cheap</album>
+				<producers_name producer_list="S1">
+					<full_name>Harry Vanda, George Young</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+				<director_name director_id="1">Mark Evans</director_name>
+				<release_date>1976</release_date>
+				<language>English</language>
+				<rating>9.5</rating>
+				<cost>
+					<Nepali>500</Nepali>
+					<Dollar>5</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+
+			<song song_id="02">
+				<song_name>Blank Space</song_name>
+				<genre>Electropop</genre>
+				<song_info>Blank Space is a song by American singer-songwriter Taylor Swift, taken from her fifth studio album, 1989.</song_info>
+				<song_writer>Taylor Swift</song_writer>				
+				<singers_list list="1">
+					<singer_name>Taylor Swift</singer_name>
+					<singer_nationality>USA </singer_nationality>					
+				</singers_list>
+				<song_length>3:52</song_length>
+				<album>1989</album>
+				<producers_name producer_list="S1">
+					<full_name>Max Martin &amp; Shellback</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+				<director_name director_id="2">Joseph Kahn</director_name>
+				<release_date>2014</release_date>
+				<language>English</language>
+				<rating>9.0</rating>
+				<cost>
+					<Nepali>500</Nepali>
+					<Dollar>5</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="03">
+				<song_name>Love Story</song_name>
+				<genre>Country pop</genre>
+				<song_info>&quot;Love Story&quot; is a song written and recorded by American singer-songwriter Taylor Swift. It was released on September 12, 2008 by Big Machine Records, as the lead single from Swift's second studio album Fearless (2008), co-produced by Nathan Chapman.</song_info>
+				<song_writer>Taylor Swift</song_writer>				
+				<singers_list list="1">
+					<singer_name>Taylor Swift</singer_name>
+					<singer_nationality>USA </singer_nationality>					
+				</singers_list>
+				<song_length>3:57</song_length>
+				<album>Taylor Swift Tribute Album: Greatest Hits Streamed</album>
+				<producers_name producer_list="S1">
+					<full_name>Nathan Chapman</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="3">Trey Fanjoy</director_name>
+				<release_date>2015</release_date>
+				<language>English</language>
+				<rating>9.5</rating>
+				<cost>
+					<Nepali>600</Nepali>
+					<Dollar>6</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="04">
+				<song_name>Psychosocial</song_name>
+				<genre>Alternative metal</genre>
+				<song_info>Psychosocial is a song by American heavy metal band Slipknot. It was released as the second single and fourth track from their fourth studio album, All Hope Is Gone.</song_info>
+				<song_writer>Corey Taylor, Joey Jordison, Paul Gray</song_writer>				
+				<singers_list list="1">
+					<singer_name>Corey Taylor</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>3:57</song_length>
+				<album>All Hope Is Gone</album>
+				<producers_name producer_list="S1">
+					<full_name>Dave Fortman</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="4">Paul Brown</director_name>
+				<release_date>2008</release_date>
+				<language>English</language>
+				<rating>8</rating>
+				<cost>
+					<Nepali>700</Nepali>
+					<Dollar>7</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="05">
+				<song_name>Before I Forget</song_name>
+				<genre>Metal</genre>
+				<song_info>Before I Forget is a Grammy Award-winning song by American heavy metal band Slipknot.</song_info>
+				<song_writer>Shawn Crahan, Chris Fehn, Paul Gray, Craig Jones, Joey Jordison, Jim Root, Corey Taylor, Mick Thomson, Sid Wilson</song_writer>				
+				<singers_list list="1">
+					<singer_name>Corey Taylor</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>4:38</song_length>
+				<album>Vol. 3: The Subliminal Verses</album>
+				<producers_name producer_list="S1">
+					<full_name>Rick Rubin</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="5">Tony Petrossian</director_name>
+				<release_date>2005</release_date>
+				<language>English</language>
+				<rating>9</rating>
+				<cost>
+					<Nepali>700</Nepali>
+					<Dollar>7</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="06">
+				<song_name>Dead Memories</song_name>
+				<genre>Alternative Metal</genre>
+				<song_info>Dead Memories is a song from American heavy metal band Slipknot's fourth album, All Hope Is Gone</song_info>
+				<song_writer>Corey Taylor</song_writer>				
+				<singers_list list="1">
+					<singer_name>Corey Taylor</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>4:29</song_length>
+				<album>All Hope Is Gone</album>
+				<producers_name producer_list="S1">
+					<full_name>Dave Fortman</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="6">P.R. Brown, Shawn Crahan</director_name>
+				<release_date>2008</release_date>
+				<language>English</language>
+				<rating>7</rating>
+				<cost>
+					<Nepali>500</Nepali>
+					<Dollar>5</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="07">
+				<song_name>Walk with Me in Hell</song_name>
+				<genre>Groove Metal</genre>
+				<song_info>Walk with Me in Hell is a 2008 live DVD by American metal band Lamb of God. </song_info>
+				<song_writer>Lamb of God</song_writer>				
+				<singers_list list="1">
+					<singer_name>Randy Blythe</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>4:29</song_length>
+				<album>As in the places Burn</album>
+				<producers_name producer_list="S1">
+					<full_name>Space Monkey Studios, Inc.</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="7">Doug Spangenberg</director_name>
+				<release_date>2008</release_date>
+				<language>English</language>
+				<rating>7.5</rating>
+				<cost>
+					<Nepali>500</Nepali>
+					<Dollar>5</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="08">
+				<song_name>Boulevard of Broken Dreams</song_name>
+				<genre>Alternative Rock</genre>
+				<song_info>Boulevard of Broken Dreams is a song by American rock band Green Day. It is the fourth track from their seventh studio album American Idiot (2004).</song_info>
+				<song_writer>Billie Joe Armstrong, Mike Dirnt, Tre Cool</song_writer>				
+				<singers_list list="1">
+					<singer_name>Billie Joe Armstrong</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>4:20</song_length>
+				<album>Holiday</album>
+				<producers_name producer_list="S1">
+					<full_name>Rob Cavallo</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="8">Samuel Bayer</director_name>
+				<release_date>2004</release_date>
+				<language>English</language>
+				<rating>7.5</rating>
+				<cost>
+					<Nepali>600</Nepali>
+					<Dollar>6</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="09">
+				<song_name>21 Guns</song_name>
+				<genre>Alternative Rock</genre>
+				<song_info>21 Guns is a song by American rock band Green Day. It was released as the second single from their eighth album, 21st Century Breakdown.</song_info>
+				<song_writer>Billie Joe Armstrong, Mike Dirnt, Tre Cool</song_writer>				
+				<singers_list list="1">
+					<singer_name>Billie Joe Armstrong</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>5:21</song_length>
+				<album>21st Century Breakdown</album>
+				<producers_name producer_list="S1">
+					<full_name>Butch Vig</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="9">Marc Webb</director_name>
+				<release_date>2008</release_date>
+				<language>English</language>
+				<rating>7</rating>
+				<cost>
+					<Nepali>600</Nepali>
+					<Dollar>6</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="10">
+				<song_name>In Waves</song_name>
+				<genre>Metalcore</genre>
+				<song_info>In Waves is the fifth studio album by American heavy metal band Trivium. It was released worldwide on various dates August 2, 2011 and August 9, 2011 through Roadrunner Records and was produced by Colin Richardson and Martyn &quot;Ginge&quot; Ford.</song_info>
+				<song_writer>Trivium</song_writer>				
+				<singers_list list="1">
+					<singer_name>Matt Heafy, Brad Lewter</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>5:00</song_length>
+				<album>Fifth Studio</album>
+				<producers_name producer_list="S1">
+					<full_name>Colin Richardson</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="10">Ramon Boutviseth</director_name>
+				<release_date>2011</release_date>
+				<language>English</language>
+				<rating>9</rating>
+				<cost>
+					<Nepali>700</Nepali>
+					<Dollar>7</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="11">
+				<song_name>Treat you Better</song_name>
+				<genre>Pop</genre>
+				<song_info>Treat You Better is a song recorded by Canadian singer and songwriter Shawn Mendes. It was co-written by Mendes with Teddy Geiger, and Scott Harris. </song_info>
+				<song_writer>Shawn Mendes, Teddy Geiger, Scott Harris</song_writer>				
+				<singers_list list="1">
+					<singer_name>Shawn Mendes</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>3:07</song_length>
+				<album>Illuminate</album>
+				<producers_name producer_list="S1">
+					<full_name>Teddy Geiger, Dan Romer, DJ Kyriakides</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="11">Not Given</director_name>
+				<release_date>2016</release_date>
+				<language>English</language>
+				<rating>8</rating>
+				<cost>
+					<Nepali>900</Nepali>
+					<Dollar>9</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="12">
+				<song_name>I took a Pill in Ibiza</song_name>
+				<genre>Folk Pop</genre>
+				<song_info>&quot;I Took a Pill in Ibiza&quot; (also known by its censored title &quot;In Ibiza&quot; or its clean title I Took a Plane to Ibiza) is a song by American singer Mike Posner. The song, originally acoustic guitar-based, was remixed by Norwegian production duo Seeb and released digitally as a single in the United States on April 14, 2015.</song_info>
+				<song_writer>Mike Posner</song_writer>				
+				<singers_list list="1">
+					<singer_name>Mike Posner</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>4:40</song_length>
+				<album>In Ibiza</album>
+				<producers_name producer_list="S1">
+					<full_name>Mike Posner, Seeb, Martin Terefe</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="12">Vicene Ferrer</director_name>
+				<release_date>2015</release_date>
+				<language>English</language>
+				<rating>9</rating>
+				<cost>
+					<Nepali>1000</Nepali>
+					<Dollar>10</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="13">
+				<song_name>Sunflower</song_name>
+				<genre>Hip hop, dream pop, R&amp;B</genre>
+				<song_info>Sunflower (alternatively titled Sunflower (Spider-Man: Into the Spider-Verse)) is a song performed by American rappers and singers Post Malone and Swae Lee.</song_info>
+				<song_writer>Austin Post, Khalif Brown, Carter Lang, Carl Rosen, Billy Walsh</song_writer>				
+				<singers_list list="1">
+					<singer_name>Post Malone, Swae Lee</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>2:38</song_length>
+				<album>Spider-Man: Into the Spider-Verse</album>
+				<producers_name producer_list="S1">
+					<full_name>Carter Lang, Louis Bell</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="13">Not Given</director_name>
+				<release_date>2018</release_date>
+				<language>English</language>
+				<rating>9</rating>
+				<cost>
+					<Nepali>1100</Nepali>
+					<Dollar>11</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="14">
+				<song_name>Pray for Me</song_name>
+				<genre>Pop Rap</genre>
+				<song_info>"Pray for Me" is a song by Canadian singer the Weeknd and American rapper Kendrick Lamar from the soundtrack album of the Marvel Studios superhero film Black Panther. The song was released by Top Dawg Entertainment, Aftermath Entertainment, and Interscope Records.</song_info>
+				<song_writer>Abel Tesfaye, Kendrick Lamar, Duckworth, Adam Feeney, Jason Quenneville, Martin Mckinney</song_writer>				
+				<singers_list list="1">
+					<singer_name>The Weeknd, Kendrick Lamar</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>3:31</song_length>
+				<album>Black Panther</album>
+				<producers_name producer_list="S1">
+					<full_name>Doc McKinney, Frank Dukes</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="14">Not Given</director_name>
+				<release_date>2018</release_date>
+				<language>English</language>
+				<rating>10</rating>
+				<cost>
+					<Nepali>1100</Nepali>
+					<Dollar>11</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>
+
+			<song song_id="15">
+				<song_name>Starboy</song_name>
+				<genre>R&quot;B, Electropop</genre>
+				<song_info>"Starboy" is a song recorded by Canadian singer the Weeknd for his third studio album of the same name. It features French electronic duo Daft Punk. The artists co-wrote and co-produced the song alongside Doc McKinney and Henry "Cirkut" Walter, with Jason Quenneville providing additional writing.</song_info>
+				<song_writer>Abel Tesfaye, Guy-Manuel de Homem-Christo, Thomas Bangalter, Martin McKinney, Henry Walter, Jason Quenneville</song_writer>				
+				<singers_list list="1">
+					<singer_name>The Weeknd</singer_name>
+					<singer_nationality>USA</singer_nationality>					
+				</singers_list>
+				<song_length>3:50</song_length>
+				<album>Beauty Behind the Madness</album>
+				<producers_name producer_list="S1">
+					<full_name>Daft Punk, Cirkut, Doc McKinney</full_name>
+					<nationality>USA</nationality>
+				</producers_name>
+
+				<director_name director_id="15">Grant Singer</director_name>
+				<release_date>2016</release_date>
+				<language>English</language>
+				<rating>10</rating>
+				<cost>
+					<Nepali>1200</Nepali>
+					<Dollar>12</Dollar>
+				</cost>
+				<stock>Available</stock>
+			</song>			
+		</songs>
+</store>

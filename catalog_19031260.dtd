@@ -1,0 +1,48 @@
+<!ELEMENT store (store_info, songs)>
+<!ELEMENT store_info (logo,store_name,about?,country,city,address,contact_info,website?)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ELEMENT contact_info (email_id,phone_num)>
+<!ATTLIST contact_info contact_id CDATA #REQUIRED>
+<!ELEMENT email_id (#PCDATA)>
+<!ELEMENT phone_num (#PCDATA)>
+
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT songs (song+)>
+<!ELEMENT song (song_name,genre,song_info?,song_writer,singers_list,song_length?,album,producers_name*,director_name*,release_date,language,rating,cost,stock)>
+<!ATTLIST song song_id CDATA #REQUIRED>
+<!ELEMENT song_name (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT song_info (#PCDATA)>
+<!ELEMENT song_writer (#PCDATA)>
+
+<!ELEMENT singers_list (singer_name,singer_nationality?)>
+<!ATTLIST singers_list list CDATA #REQUIRED>
+<!ELEMENT singer_name (#PCDATA)>
+<!ELEMENT singer_nationality (#PCDATA)>
+
+<!ELEMENT song_length (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+
+<!ELEMENT producers_name (full_name,nationality?)>
+<!ATTLIST producers_name producer_list CDATA #REQUIRED>
+<!ELEMENT full_name (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+
+<!ELEMENT director_name (#PCDATA)>
+<!ATTLIST director_name director_id CDATA #REQUIRED>
+
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT cost (Nepali,Dollar)>
+<!ELEMENT Nepali (#PCDATA)>
+<!ELEMENT Dollar (#PCDATA)>
+
+<!ELEMENT stock (#PCDATA)>

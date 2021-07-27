@@ -1,0 +1,88 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="store_info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="logo"/>
+              <xs:element type="xs:string" name="store_name"/>
+              <xs:element type="xs:string" name="about" minOccurs="0" maxOccurs="1"/>
+              <xs:element type="xs:string" name="country"/>
+              <xs:element type="xs:string" name="city"/>
+              <xs:element type="xs:string" name="address"/>
+              <xs:element name="contact_info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="email_id"/>
+                    <xs:element type="xs:string" name="phone_num"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:int" name="contact_id"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="website" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="songs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="song_name"/>
+                    <xs:element type="xs:string" name="genre"/>
+                    <xs:element type="xs:string" name="song_info" minOccurs="0" maxOccurs="1"/>
+                    <xs:element type="xs:string" name="song_writer"/>
+                    <xs:element name="singers_list">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="singer_name"/>
+                          <xs:element type="xs:string" name="singer_nationality" minOccurs="0" maxOccurs="1"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:int" name="list" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="song_length"/>
+                    <xs:element type="xs:string" name="album"/>
+                    <xs:element name="producers_name" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="full_name"/>
+                          <xs:element type="xs:string" name="nationality" minOccurs="0" maxOccurs="1"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="producer_list"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="director_name" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:int" name="director_id"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:short" name="release_date"/>
+                    <xs:element type="xs:string" name="language"/>
+                    <xs:element type="xs:float" name="rating"/>
+                    <xs:element name="cost">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:short" name="Nepali"/>
+                          <xs:element type="xs:byte" name="Dollar"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="stock"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:int" name="song_id" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
